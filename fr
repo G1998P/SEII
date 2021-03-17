@@ -1,0 +1,6 @@
+with open('prog011.txt','w') as f:
+    print('escrevendo no arquivo',file=f)
+    f.write('tambem escrevo assim')
+
+with open('prog011.txt','r') as f:
+    print(f.read())
